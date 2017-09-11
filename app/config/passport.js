@@ -18,7 +18,7 @@ module.exports = function (passport) {
 	passport.use(new FacebookStrategy({
         clientID: '1220169278028018',
         clientSecret: '81dc8d4f6e13c40258c8e6a35f7a44dc',
-        callbackURL: "http://nitelife-app.herokuapp.com/auth/facebook/callback",
+        callbackURL: "https://nitelife-app.herokuapp.com/auth/facebook/callback",
         profileFields: ['id'],
         passReqToCallback: true,
         enableProof: true
