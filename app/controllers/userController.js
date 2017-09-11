@@ -27,7 +27,7 @@ function UserController() {
 				console.log("Gotten");
 				return res.json();
 			}).then(function(json){
-				console.log)("JSON ", json)
+				console.log("JSON ", json)
 				console.log(json.response.groups[0].items[0].venue.url);
 				res.json(json.response.groups[0].items);
 			}).catch(function(e){
