@@ -9,6 +9,7 @@
     "mongoose": "*",
     "express": "*",
     "session": "*",
+    "express-session": "*",
     "body-parser": "*",
     "connect-mongo": "*",
     "passport": "*",
