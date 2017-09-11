@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nightlife Coordnation App</title>
+		<link rel="stylesheet" type="text/css" href="/public/css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="/public/css/main.css">
+		<!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> -->
+	</head>
+	<body>
+		<div class="container" >
+			<div class="row">
+				<h1>Plans tonight?</h1>
+			</div>
+			<div class="row">
+				<p class="h1"><i class="fa fa-map-marker"></i> <i class="fa fa-car"></i> <i class="fa fa-glass"></i></p>
+			</div>
+			<div class="row">
+				<p class="h4">See which bars are hoppin' tonight and RSVP ahead of time! <br> Remember: take a cab and drink responsibly.</p>
+				<br>
+			</div>
+			<div class="row" >
+				<form id="search" class="form-horizontal" enctype="multipart/form-data">
+					<div class="col-xs-10">
+						<input type="text"  class="form-control" placeholder="WHERE YOU AT?" id="search-input">
+					</div>
+					
+						<input class="col-xs-2 btn btn-default" type="submit" value="GO" >
+					
+				</form>
+			</div>
+
+			<!-- RESULTS -->
+		<div  class="container result">
+			<div class="row spinner">
+				<p class="h1"><i class="fa fa-spinner fa-pulse"></i></p>
+			</div>
+			<div class="row result-row">
+				<img src="../public/img/tile.png
+				">
+				<span><a>Restuarant</a> <button>1 GOING</button></span><br><br>
+
+				
+				<p >Note: This experience was on a Sunday at around 7pm. My cousins and I wanted to go someplace before heading back to Philly and since we were in Chinatown,...</p>
+
+
+			</div>
+			<div class="row result-row">
+				<img src="../public/img/tile.png
+				">
+				<span><a>Restuarant</a> <button>1 GOING</button></span><br><br>
+
+				
+				<p >Note: This experience was on a Sunday at around 7pm. My cousins and I wanted to go someplace before heading back to Philly and since we were in Chinatown,...</p>
+
+
+			</div>
+			<div class="row result-row">
+				<img src="../public/img/tile.png
+				">
+				<span><a>Restuarant</a>
+				<form class="going-form col-md-2">
+					<input type="hidden" name="venueId" value="r5455658">
+					<button class="going-button">0 GOING</button>
+				</form>
+			</span><br><br>
+
+			<p >Note: This experience was on a Sunday at around 7pm. My cousins and I wanted to go someplace before heading back to Philly and since we were in Chinatown,...</p>
+			</div>
+			
+		</div>
+		</div>
+
+		
+		
+		
+		<footer class="container">
+			Project for freeCodeCamp by <a href="https://freecodecamp.com/emmabaye" target="_blank">emmabaye</a>
+		</footer>
+		<script src="/public/js/es6-promise.min.js"></script>
+		<script src="/public/js/fetch.js"></script>
+       <script src="/controllers/clientController.js"></script>
+		
+	</body>
+</html>
