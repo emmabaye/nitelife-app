@@ -8,6 +8,7 @@ var clientID = process.env.FOURSQUARE_ID;
 var clientSecret = process.env.FOURSQUARE_SECRET;
 var url = "https://api.foursquare.com/v2/venues/explore?near=New%20York&limit=20&"+
 "venuePhotos=1&section=nightlife&client_id="+ clientID +"&client_secret=" + clientSecret + "&v=20160826&m=swarm"
+console.log(url)
 
 
 function UserController() {
